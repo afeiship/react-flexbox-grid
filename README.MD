@@ -1,9 +1,9 @@
-# react-layout-grid
-> React grid layout component.
+# react-flexbox-grid
+> React flexbox grid layout component.
 
 
 ## resource:
-+ https://ant.design/components/grid-cn/
++ http://roylee0704.github.io/react-flexbox-grid/
 
 
 ## props:
@@ -14,5 +14,5 @@
 
 ## usage:
 ```html
-<react-layout-grid :visible="true" />
+<react-flexbox-grid :visible="true" />
 ```

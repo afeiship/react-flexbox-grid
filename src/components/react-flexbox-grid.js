@@ -1,3 +1,4 @@
+import './style.scss';
 import React, {PureComponent, PropTypes} from 'react';
 import classNames from 'classnames';
 
@@ -15,7 +16,7 @@ export default class extends PureComponent {
 
   render() {
     return (
-      <div className={classNames('react-layout-grid', this.props.className)}>
+      <div className={classNames('react-flexbox-grid', this.props.className)}>
         Hello React!
       </div>
     );

@@ -1,29 +1,29 @@
 {
-  "name": "react-layout-grid",
+  "name": "react-flexbox-grid",
   "version": "0.1.0",
   "description": "React grid layout component.",
   "author": "afeiship <1290657123@qq.com>",
   "keywords": [
     "components",
-    "react-layout-grid",
+    "react-flexbox-grid",
     "ui",
     "theme"
   ],
   "private": false,
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/afeiship/react-layout-grid.git"
+    "url": "git+https://github.com/afeiship/react-flexbox-grid.git"
   },
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/afeiship/react-layout-grid/issues"
+    "url": "https://github.com/afeiship/react-flexbox-grid/issues"
   },
-  "homepage": "https://github.com/afeiship/react-layout-grid",
+  "homepage": "https://github.com/afeiship/react-flexbox-grid",
   "scripts": {
     "dev": "node build/dev-server.js",
     "build": "node build/build.js"
   },
-  "main": "./dist/react-layout-grid.js",
+  "main": "./dist/react-flexbox-grid.js",
   "devDependencies": {
     "autoprefixer": "^6.4.0",
     "autoprefixer-loader": "^3.2.0",

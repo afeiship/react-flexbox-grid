@@ -9,8 +9,8 @@ base.entry = {
 base.output = {
   path: config.build.assetsRoot,
   publicPath: config.build.assetsPublicPath,
-  filename: 'react-layout-grid.js',
-  library: 'ReactLayoutGrid',
+  filename: 'react-flexbox-grid.js',
+  library: 'ReactFlexboxGrid',
   libraryTarget: 'umd'
 }
 
