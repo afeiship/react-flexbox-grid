@@ -20,6 +20,13 @@ $grid-responsive:();
 
 
 ## usage:
++ import react-flexbox-grid
+```javascript
+// npm install --save afeiship/react-flexbox-grid
+import {Row,Col} from 'react-flexbox-grid';
+```
+
++ layout your apps:
 ```html
 <Row align='center'>
   <Col span={33}>col1 <br/> cosdjflksjdfl <br/></Col>
