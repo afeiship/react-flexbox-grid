@@ -32,7 +32,7 @@ class App extends React.Component{
         </Row>
 
 
-        <Row justify={'center'}>
+        <Row justify='center'>
           <div className="l-box">col1</div>
           <div className="l-box">col1</div>
           <div className="l-box">col1</div>
@@ -40,7 +40,7 @@ class App extends React.Component{
         </Row>
 
 
-        <Row justify={'around'}>
+        <Row justify='around'>
           <div className="l-box">col1</div>
           <div className="l-box">col1</div>
           <div className="l-box">col1</div>
@@ -48,7 +48,7 @@ class App extends React.Component{
         </Row>
 
 
-        <Row justify={'between'}>
+        <Row justify='between'>
           <div className="l-box">col1</div>
           <div className="l-box">col1</div>
           <div className="l-box">col1</div>

@@ -52,21 +52,21 @@ import {Row,Col} from 'react-flexbox-grid';
   <Col style={{width:'120px'}}>col1</Col>
 </Row>
 
-<Row justify={'center'}>
+<Row justify='center'>
   <div className="l-box">col1</div>
   <div className="l-box">col1</div>
   <div className="l-box">col1</div>
   <div className="l-box">col1</div>
 </Row>
 
-<Row justify={'around'}>
+<Row justify='around'>
   <div className="l-box">col1</div>
   <div className="l-box">col1</div>
   <div className="l-box">col1</div>
   <div className="l-box">col1</div>
 </Row>
 
-<Row justify={'between'}>
+<Row justify='between'>
   <div className="l-box">col1</div>
   <div className="l-box">col1</div>
   <div className="l-box">col1</div>
