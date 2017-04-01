@@ -17,7 +17,6 @@ export default class extends Base {
     const layoutAlign = align ? `${layout}-${align}` : '';
     const wrapCls = wrap ? 'row-wrap' : '';
     const justifyContent = justify ?  `row-justify-${justify}` : '';
-
     Object.assign(props, {
       className: classNames(layout,layoutAlign,wrapCls,justifyContent,className)
     });

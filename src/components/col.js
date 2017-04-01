@@ -4,7 +4,6 @@ import classNames from 'classnames';
 import {GRID} from './const';
 
 export default class extends Base {
-
   static propTypes = {
     span: PropTypes.oneOf(GRID),
     offset: PropTypes.oneOf(GRID)
@@ -18,8 +17,6 @@ export default class extends Base {
     const layoutAlign = align ? `${layout}-${align}` : '';
     const spanPercent = span ?  `col-${span}` : '';
     const offsetPercent = offset ?  `col-offset-${offset}` : '';
-
-
     Object.assign(props, {
       className: classNames(layout,layoutAlign, spanPercent, offsetPercent, className)
     });
