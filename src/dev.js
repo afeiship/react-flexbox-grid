@@ -8,10 +8,22 @@ class App extends React.Component{
     return (
       <div className="hello-react-flexbox-grid">
         <Row align='center'>
-          <Col>col1 <br/> cosdjflksjdfl <br/></Col>
-          <Col align='bottom'>col2</Col>
-          <Col>col3</Col>
-          <Col>col4</Col>
+          <Col span={33}>col1 <br/> cosdjflksjdfl <br/></Col>
+          <Col>Left...</Col>
+        </Row>
+
+        <Row align='center' wrap={true}>
+          <Col span={33}>col1</Col>
+          <Col span={33}>col1</Col>
+          <Col span={33}>col1</Col>
+          <Col span={33}>col1</Col>
+          <Col span={33}>col1</Col>
+        </Row>
+
+        <div style={{height:'10px'}}></div>
+
+        <Row align='bottom'>
+          <Col offset={33}>offset 33...</Col>
         </Row>
     </div>
     );

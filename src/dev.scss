@@ -1,7 +1,8 @@
 *{margin: 0;padding:0;}
 ul,li{list-style: none;}
 
-$grid-padding-width:20px;
+$grid-padding-width:0;
+$grid-responsive:();
 
 @import '../bower_components/webkit-sass-flexbox-grid/dist/webkit-sass-flexbox-grid.scss';
 
@@ -9,6 +10,18 @@ $grid-padding-width:20px;
   color:#F00;
   padding:100px 20px;
   position: relative;
+
+  *{
+    box-sizing: border-box;
+  }
+
+  .row{
+    border: 1px solid #f60;
+  }
+  .col{
+    border: 1px solid #3cc51f;
+  }
+
   button{
     background: #3cc51f;
     width:100%;
