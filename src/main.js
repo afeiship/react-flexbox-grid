@@ -1,2 +1,6 @@
-import ReactFlexboxGrid from 'components/react-flexbox-grid';
-export default ReactFlexboxGrid;
+import Row from 'components/row';
+import Col from 'components/col';
+module.exports = {
+  Row,
+  Col,
+};
