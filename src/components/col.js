@@ -1,11 +1,13 @@
 import Base from './base';
 import React, {PureComponent, PropTypes, createElement} from 'react';
 import classNames from 'classnames';
+import {GRID} from './const';
 
 export default class extends Base {
+
   static propTypes = {
-    span: PropTypes.number,
-    offset: PropTypes.number
+    span: PropTypes.oneOf(GRID),
+    offset: PropTypes.oneOf(GRID)
   };
 
   layout = 'col';
@@ -16,6 +18,7 @@ export default class extends Base {
     const layoutAlign = align ? `${layout}-${align}` : '';
     const spanPercent = span ?  `col-${span}` : '';
     const offsetPercent = offset ?  `col-offset-${offset}` : '';
+
 
     Object.assign(props, {
       className: classNames(layout,layoutAlign, spanPercent, offsetPercent, className)

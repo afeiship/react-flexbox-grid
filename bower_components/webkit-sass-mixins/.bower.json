@@ -21,11 +21,11 @@
     "tests",
     "src"
   ],
-  "_release": "9a32eddfe2",
+  "_release": "0b587032f2",
   "_resolution": {
     "type": "branch",
     "branch": "master",
-    "commit": "9a32eddfe26a6f499c3af4332428fa25c145c900"
+    "commit": "0b587032f2361692b8495f8297f52d6fb8e9a55a"
   },
   "_source": "https://github.com/afeiship/webkit-sass-mixins.git",
   "_target": "*",

@@ -4,7 +4,7 @@
 
 ## resource:
 + http://roylee0704.github.io/react-flexbox-grid/
-
++ https://ant.design/components/grid-cn/
 
 ## dependencies:
 + git@github.com:afeiship/webkit-sass-flexbox-grid.git

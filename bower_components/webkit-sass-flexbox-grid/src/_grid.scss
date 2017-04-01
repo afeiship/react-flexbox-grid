@@ -58,6 +58,32 @@
   @include align-items(baseline);
 }
 
+/* Vertically Row Justify */
+//start end center space-around space-between
+.row-justify-start {
+  @include justify-content(flex-start);
+}
+
+.row-justify-end {
+  @include justify-content(flex-end);
+}
+
+.row-justify-center {
+  @include justify-content(center);
+}
+
+.row-justify-stretch {
+  @include justify-content(stretch);
+}
+
+.row-justify-between {
+  @include justify-content(space-between);
+}
+
+.row-justify-around {
+  @include justify-content(space-around);
+}
+
 /* .col-* vertically aligns an individual .col */
 .col-top {
   @include align-self(flex-start);
@@ -115,6 +141,10 @@
   @include flex(0, 0, 25%);
   max-width: 25%;
 }
+.col-30 {
+  @include flex(0, 0, 30%);
+  max-width: 30%;
+}
 .col-33, .col-34 {
   @include flex(0, 0, 33.3333%);
   max-width: 33.3333%;
@@ -134,6 +164,10 @@
 .col-66, .col-67 {
   @include flex(0, 0, 66.6666%);
   max-width: 66.6666%;
+}
+.col-70 {
+  @include flex(0, 0, 70%);
+  max-width: 70%;
 }
 .col-75 {
   @include flex(0, 0, 75%);

@@ -1,0 +1,23 @@
+{
+  "name": "react-flexbox-grid",
+  "description": "slkdfj",
+  "main": "./dist/react-flexbox-grid.js",
+  "authors": [
+    "afeiship <1290657123@qq.com>"
+  ],
+  "license": "MIT",
+  "keywords": [
+    "sdf"
+  ],
+  "homepage": "https://github.com/afeiship/react-flexbox-grid",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "devDependencies": {
+    "webkit-sass-flexbox-grid": "afeiship/webkit-sass-flexbox-grid"
+  }
+}

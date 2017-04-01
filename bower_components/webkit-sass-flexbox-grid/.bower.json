@@ -22,11 +22,11 @@
   "dependencies": {
     "webkit-sass-mixins": "afeiship/webkit-sass-mixins"
   },
-  "_release": "735fdfd5ad",
+  "_release": "a5b2b9bc09",
   "_resolution": {
     "type": "branch",
     "branch": "master",
-    "commit": "735fdfd5ad2128a5a12bd7509d521eb681dd423e"
+    "commit": "a5b2b9bc0971f253c5cdf6ca67713edf49ac3d99"
   },
   "_source": "https://github.com/afeiship/webkit-sass-flexbox-grid.git",
   "_target": "*",
