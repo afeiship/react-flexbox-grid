@@ -10,7 +10,7 @@
 + https://ant.design/components/grid-cn/
 
 ## dependencies:
-+ git@github.com:afeiship/webkit-sass-flexbox-grid.git
++ https://github.com/afeiship/webkit-sass-flexbox-grid.git
 + override config:
 ```scss
 $grid-padding-width:0;
