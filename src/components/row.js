@@ -1,7 +1,9 @@
+import React, {PropTypes, PureComponent, createElement} from 'react';
+
 import Base from './base';
-import React, {PureComponent, PropTypes, createElement} from 'react';
-import classNames from 'classnames';
 import {JUSTIFY} from './const';
+import classNames from 'classnames';
+import objectAssign from 'object-assign';
 
 export default class extends Base {
   static propTypes = {
@@ -17,7 +19,7 @@ export default class extends Base {
     const layoutAlign = align ? `${layout}-${align}` : '';
     const wrapCls = wrap ? 'row-wrap' : '';
     const justifyContent = justify ?  `row-justify-${justify}` : '';
-    Object.assign(props, {
+    objectAssign(props, {
       className: classNames(layout,layoutAlign,wrapCls,justifyContent,className)
     });
     return createElement(nodeName, props);

@@ -1,7 +1,9 @@
+import React, {PropTypes, PureComponent, createElement} from 'react';
+
 import Base from './base';
-import React, {PureComponent, PropTypes, createElement} from 'react';
-import classNames from 'classnames';
 import {GRID} from './const';
+import classNames from 'classnames';
+import objectAssign from 'object-assign';
 
 export default class extends Base {
   static propTypes = {
@@ -17,7 +19,7 @@ export default class extends Base {
     const layoutAlign = align ? `${layout}-${align}` : '';
     const spanPercent = span ?  `col-${span}` : '';
     const offsetPercent = offset ?  `col-offset-${offset}` : '';
-    Object.assign(props, {
+    objectAssign(props, {
       className: classNames(layout,layoutAlign, spanPercent, offsetPercent, className)
     });
     return createElement(nodeName, props);
