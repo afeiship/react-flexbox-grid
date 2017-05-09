@@ -45,4 +45,13 @@ $grid-responsive:();
       outline: none;
     }
   }
+
+
+  .test-list{
+    >div{
+      width:40px;
+      height:80px;
+      border:1px solid #f60;
+    }
+  }
 }

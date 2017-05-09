@@ -1,7 +1,7 @@
 import './dev.scss';
-// import ReactFlexboxGrid from './main';
-import {Row,Col} from './main';
 
+// import ReactFlexboxGrid from './main';
+import {Col, Row} from './main';
 
 class App extends React.Component{
   render(){
@@ -59,6 +59,14 @@ class App extends React.Component{
 
         <Row align='bottom'>
           <Col offset={33}>offset 33...</Col>
+        </Row>
+
+
+        <Row className="test-list"  justify='around'>
+          <div>Test1</div>
+          <div>Test1</div>
+          <div>Test1</div>
+          <div>Test1</div>
         </Row>
     </div>
     );
